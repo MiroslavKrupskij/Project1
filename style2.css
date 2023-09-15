@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+    background-color: rgb(131, 178, 220);
+}
+.header {
+    border: 3px double black;
+}
+.wrapper {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.head {
+    padding-left: 20px;
+}
+.link, .active_link {
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    padding-left: 40px;
+}
